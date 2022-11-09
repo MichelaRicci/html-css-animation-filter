@@ -127,6 +127,7 @@
     }
 }
 
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
@@ -155,4 +156,62 @@
     background: #f5f5f5;
     width: 60px;
     height: 20px;
+}
+
+
+.ex-12-button:hover .ex-12-top-white, {
+    animation: moveborderwhite 2s linear;
+
+}}
+
+@keyframes moveborderwhite {
+    0% {
+        left: 20%;
+    }
+
+    50% {
+       left: 50px;
+    }
+
+    100% {
+        left: 20%;
+    }
+}
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: movebordertop 2s linear;
+
+}
+
+@keyframes movebordertop {
+    0% {
+        left: 20%;
+    }
+
+    50% {
+       left: 70%;
+    }
+
+    100% {
+        left: 20%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: moveborderbottom 2s linear;
+
+}
+
+@keyframes moveborderbottom{
+    0% {
+        right: 20%;
+    }
+
+    50% {
+       right: 70%;
+    }
+
+    100% {
+        right: 20%;
+    }
 }
