@@ -185,7 +185,7 @@
 
 @keyframes movebordertop {
     0% {
-        left: 20%;
+        left: 10%;
     }
 
     50% {
@@ -193,7 +193,7 @@
     }
 
     100% {
-        left: 20%;
+        left: 10%;
     }
 }
 
@@ -204,7 +204,7 @@
 
 @keyframes moveborderbottom{
     0% {
-        right: 20%;
+        right: 10%;
     }
 
     50% {
